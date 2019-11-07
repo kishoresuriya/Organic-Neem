@@ -1,0 +1,17 @@
+<script type="text/javascript">
+       function recaptcha_callback() {
+       $('#sell_house_submit').removeAttr('disabled');
+        };                                 
+ </script>
+
+		<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("google captcha is ready!");
+  };
+</script>
+
+	<button class="btn btn-dark btn-block " disabled="disabled" id="sell_house_submit"  name="submit" value="Submit" >Send Message</button>
+
+	data-callback="recaptcha_callback"
+
+	6LenDrIUAAAAAL2cN9n9Je6NPcp8qoyQbxiC27t5
